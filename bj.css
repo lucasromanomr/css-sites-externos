@@ -95,7 +95,7 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     color: #b2b4b8;
-    min-width: 850px
+    min-width: 850px;
 }
 
 h2,
@@ -513,7 +513,7 @@ div.linkbox {
 .group_torrent span,
 .sidebar,
 .torrent span {
-    float: right
+    float: right;
 }
 
 .alertbar {
@@ -545,8 +545,8 @@ input.hidden {
 }
 
 .thin {
-    width: 960px;
-    margin: 0 auto
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .widethin {
@@ -665,7 +665,9 @@ h4.min_padding {
 }
 
 .sidebar {
-    width: 300px
+    width: 300px;
+    float: right;
+    display: block;
 }
 
 .head {
@@ -685,7 +687,7 @@ h4.min_padding {
 .tags,
 td,
 th {
-    font-size: 12px
+    font-size: 12px;
 }
 
 .body {
@@ -693,7 +695,12 @@ th {
 }
 
 .main_column {
-    width: 640px
+    width: 850px;
+    float: left;
+    display: block;
+    border: 0.5px solid #2a2c2e;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .main_column table {
@@ -750,7 +757,7 @@ td,
 th {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #282a2b;
+    /* border-bottom: 1px solid #282a2b; */
 }
 
 .colhead {
@@ -1059,7 +1066,7 @@ textarea:focus {
 }
 
 .torrent_table tr {
-    vertical-align: top;
+    /* vertical-align: top; */
     border-bottom: 1px solid #282a2b;
     /* padding: 10px; */
 }
@@ -1080,7 +1087,7 @@ textarea:focus {
 }
 
 .torrent_table tr.group_torrent {
-    background-color: #35373c
+    background-color: #35373c;
 }
 
 .torrent_table tr.torrent {
@@ -1458,7 +1465,7 @@ ol {
 }
 
 .number_column {
-    font-size: 13px
+    font-size: 13px;
 }
 
 #forum_list number_column {
