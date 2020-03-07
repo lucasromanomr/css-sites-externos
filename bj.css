@@ -1,6 +1,6 @@
 .group_image img {
     height: auto;
-    width: 150px;
+    width: 100px;
     border-radius: 10px;
     margin-right: 10px;
 }
@@ -105,7 +105,9 @@ h4 {
 
 a {
     font-weight: 500;
-    color: #d4d4d4
+    font-size: 14px;
+    color: #d4d4d4;
+    margin-bottom: 8pxç;
 }
 
 #userinfo_major .brackets:after,
@@ -1092,13 +1094,14 @@ textarea:focus {
 
 .torrent_table tr.torrent {
     background-color: transparent;
-    padding: ;
+    padding:;
+    vertical-align: top;
 }
 
 tr.torrent {}
 
 .torrent_table tr .center {
-    /* vertical-align:middle; */
+    vertical-align: top;
     text-align: center;
 }
 
